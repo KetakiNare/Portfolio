@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+ <body>
+    <div class="header">
+          <video autoplay loop muted plays-inline class="backvideo">
+            <source src="Images/Background.mp4" type="video/mp4">
+          </video>
+         <nav>
+           <img src="Images/logo.png" class="logo">
+         <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <section class="home" id="home">
+
+         <div class="header-text">
+          <h1>Design, Develop, Deploy</h1>
+            <div class="text-animation">
+              <h3>It's<span> Ketaki Nare</span></h3>
+            </div>
+          <p>a Java developer based in Pune. Passionate about coding in Java, I create software solutions with simplicity and efficiency.</p>
+        
+         </div>
+         </section>
+      </div>
+      <!--------------about----------->
+         <section class="aboutme" id="about"> 
+           <h2 class="heading">About <span>Me</span></h2>
+          <div class="about-img">
+              <img src="Images/Aboutme.png" alt="">
+              <span class="circle-spin"></span>
+          </div>
+          <div class="about-content">
+             <h3> Web Developer</h3>
+             <p>Hello! I'm Ketaki Nare, a recent graduate with a degree in Bsc(Computer Science). Proficient in Java, I'm eager to dive into software development. Skilled in Java, Angular, Spring, HTML, CSS and MySQL, I'm detail-oriented and adept at problem-solving. I thrive in collaborative environments and am passionate about continuous learning. Excited to contribute to innovative projects and grow as a developer.</p>
+          </div>
+         </section>
+     
+    <!-----------Skills-------->
+    <section class="skills" id="skills">
+        <div class="inner">
+           <h1 class="heading2">My<span> Skills</span></h1>
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="Images/html.png" class="skill-icon">
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="Images/css_1.png" class="skill-icon">
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="Images/javascript.png" class="skill-icon">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="Images/Java-Logo-1996.png" class="skill-icon">
+                        </div>
+                        <h3>Java</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="Images/Angular.png" class="skill-icon">
+                        </div>
+                        <h3>Angular</h3>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="Images/Mysql.png" class="skill-icon">
+                        </div>
+                        <h3>MySQL</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------Education-------->
+    <div class="Education" id="Education">
+        <div class="container2">
+          <div class="heading3">
+            <h5>My<span> Education</span></h5>
+          </div>
+          <div class="row">
+            <div class="colum-1">
+              <div class="experience">
+                <div class=" col-12">
+                  <h5>Aug, 2019 – Oct, 2022</h5>
+                </div>
+                <div class=" col-12 ex-left">
+                  <h4>BSC.(Computer Science)</h4>
+                  <span>Vishwakarma University,Pune</span> </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="experience">
+                <div class=" col-12">
+                  <h5>Aug, 2018 – Mar, 2019</h5>
+                </div>
+                <div class=" col-12 ex-left">
+                  <h4>HSC</h4>
+                  <span>Vishwakarma Vidyalaya,Pune</span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------Project--------->
+      <div id="project">
+        <div class="container1">
+            <h1 class="sub-title">My<span> Projects</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <a href="https://github.com/KetakiNare/Snake_Game"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <a href="https://github.com/KetakiNare/Tic_Tac_Toe"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+     <!----------Contact------------>
+     <div id="contact">
+        <div class="container3">
+            <div class="row1">
+                <div class="contact-left">
+                    <h1 class="heading4">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane"></i>ketakinare@gmail.com</p>
+                    <p><i class="fa fa-phone-square-alt"></i>9096535454</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ketaki-nare-049138233"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/KetakiNare"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="Images/KetakiNare CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright Ketaki<i class="fa fa-heart"></i></i>
+            </p>
+        </div>
+    </div>
+    <script>
+        var sidemen =document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemen.style.right="0";
+        }
+        function closemenu(){
+            sidemen.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx2DTVbq2lstSLlUnwaNFza4XFgBwRft7ih5jr1QrD_3bhCW0eYNXkVpXQGMcvGW_B0/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
